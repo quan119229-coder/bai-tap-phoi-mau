@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành Phối màu Đơn tông</title>
+    <style>
+        /* Bước 6: Giữ nguyên màu chữ toàn bộ trang là màu đen */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000000; 
+            /* Bước 2: Màu nền trang chuyển thành màu bậc 4 (#00BFF2) */
+            background-color: #00BFF2; 
+        }
+
+        /* Header / Logo (Màu bậc 1 - #00ADEE) */
+        header {
+            background-color: #00ADEE;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Bước 3: Thay đổi màu nền phần ON SALE/PREVIEW thành màu bậc 1 (#00ADEE) hoặc bậc 2 (#00B2EF) */
+        .on-sale, .preview {
+            background-color: #00ADEE; 
+            color: #ffffff;
+            padding: 10px;
+            display: inline-block;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        /* Bước 4: Đổi màu nền phần nội dung thành màu bậc 7 (#8DD7F7) */
+        .content {
+            background-color: #8DD7F7;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        /* Bước 5: Đổi màu nền phần footer thành màu bậc 9 (#C6E9FA) */
+        footer {
+            background-color: #C6E9FA;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Trang Web Demo Phối Màu Đơn Tông</h1>
+    </header>
+
+    <div class="content">
+        <div class="on-sale">ON SALE 50%</div>
+        <h2>Nội dung sản phẩm / bài viết</h2>
+        <p>Đây là phần nội dung chính với nền màu bậc 7 (#8DD7F7) và chữ màu đen để đảm bảo độ tương phản dễ đọc.</p>
+    </div>
+
+    <footer>
+        <p>© 2026 CodeGym - Bài thực hành phối màu đơn tông</p>
+    </footer>
+
+</body>
+</html>
